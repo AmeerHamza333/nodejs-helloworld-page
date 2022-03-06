@@ -19,6 +19,6 @@ router.get('/',function(req,res){
 //add the router
 app.use('/', router);
 app.listen(port, ()=>{
-    console.log('Running at Port no : ${port}');
+    console.log(`Running at Port no : ${port}`);
 
 });
